@@ -24,7 +24,7 @@ Don't worry though, you don't have to download anything separately, it's package
 
 You can configure the precision, by setting the number of bits of the big number type. However, keep in mind that more precision means worse performance.
 
-For that, go to Source/Unreal-FPMPrecision/Public/PrecisionSettings.h
+For that, go to Source/SpacekitPrecision/Public/PrecisionSettings.h
 
 Unreal-FPM has unit tests, that use UE4's testing system: if you modify Unreal-FPM, remember to run them, to ensure that nothing got broken in the process.
 
