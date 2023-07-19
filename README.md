@@ -5,7 +5,7 @@ Unreal Fixed Point Math
 
 https://discord.gg/PwGBQBR7MM Join our Discord!
 
-Note: Credit to Evols's SpaceKit! https://github.com/Evols/SpaceKit
+All Credit goes to Evols's SpaceKit! https://github.com/Evols/SpaceKit
 
 Features:
 
