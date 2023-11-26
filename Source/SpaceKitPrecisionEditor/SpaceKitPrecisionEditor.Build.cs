@@ -9,7 +9,8 @@ public class SpaceKitPrecisionEditor : ModuleRules
 	public SpaceKitPrecisionEditor(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = ModuleRules.PCHUsageMode.UseSharedPCHs;
-		bEnforceIWYU = true;
+		
+		bUseUnity = false;
 
 		PrivatePCHHeaderFile = "SpaceKitPrecisionEditor.h";
 

@@ -8,8 +8,8 @@ public class Boost : ModuleRules
     {
 		PCHUsage = ModuleRules.PCHUsageMode.UseSharedPCHs;
         PrivatePCHHeaderFile = "Public/Boost.h";
-
-        bEnforceIWYU = true;
+        
+        bUseUnity = false;
 
         Type = ModuleType.External;
 

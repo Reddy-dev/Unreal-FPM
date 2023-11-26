@@ -7,7 +7,8 @@ public class SpaceKitPrecision : ModuleRules
 	public SpaceKitPrecision(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = ModuleRules.PCHUsageMode.UseSharedPCHs;
-		bEnforceIWYU = true;
+		
+		bUseUnity = false;
 
 		PrivatePCHHeaderFile = "SpaceKitPrecision.h";
 
