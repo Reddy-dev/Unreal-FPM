@@ -1,8 +1,8 @@
 // Copyright 2020 Baptiste Hutteau Licensed under the Apache License, Version 2.0
 
-#include "Core/Public/CoreTypes.h"
-#include "Core/Public/Containers/UnrealString.h"
-#include "Core/Public/Misc/AutomationTest.h"
+#include "CoreTypes.h"
+#include "Containers/UnrealString.h"
+#include "Misc/AutomationTest.h"
 
 #include "SpaceKitPrecision/Public/VectorFloat.h"
 

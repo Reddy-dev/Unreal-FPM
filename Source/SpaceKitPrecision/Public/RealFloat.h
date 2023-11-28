@@ -13,7 +13,7 @@
 #include "Boost/Public/Boost.h"
 #include "CoreMinimal.h"
 #include "PrecisionSettings.h"
-#include "Core/Public/HAL/Platform.h"
+#include "HAL/Platform.h"
 #include "Internationalization/FastDecimalFormat.h"
 
 #include "RealFloat.generated.h"

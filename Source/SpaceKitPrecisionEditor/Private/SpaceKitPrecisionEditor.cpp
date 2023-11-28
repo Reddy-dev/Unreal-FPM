@@ -7,8 +7,8 @@
 #include "SpaceKitPrecision/Public/RealFixed.h"
 #include "SpaceKitPrecision/Public/RealFloat.h"
 #include "SpaceKitPrecision/Public/VectorFixed.h"
-#include "PropertyEditor/Public/PropertyEditorModule.h"
-#include "Core/Public/Misc/CoreDelegates.h"
+#include "PropertyEditorModule.h"
+#include "Misc/CoreDelegates.h"
 #include "VectorFloat.h"
 #include "RotatorFloat.h"
 

@@ -5,9 +5,9 @@
 #include "CoreMinimal.h"
 #include "IPropertyTypeCustomization.h"
 #include "SGraphPin.h"
-#include "Slate/Public/Widgets/Input/SNumericEntryBox.h"
-#include "PropertyEditor/Public/DetailWidgetRow.h"
-#include "PropertyEditor/Public/DetailLayoutBuilder.h"
+#include "Widgets/Input/SNumericEntryBox.h"
+#include "DetailWidgetRow.h"
+#include "DetailLayoutBuilder.h"
 #include "Runtime/Launch/Resources/Version.h"
 #include "RealFloat.h"
 

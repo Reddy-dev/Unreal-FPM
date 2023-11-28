@@ -9,7 +9,7 @@
 #include "SpaceKitPrecision/Private/ttmath/ttmath.h"
 #pragma warning(pop)
 
-#include "Core/Public/HAL/Platform.h"
+#include "HAL/Platform.h"
 #include "CoreMinimal.h"
 
 
@@ -71,6 +71,13 @@ private:
 	}
 
 public:
+
+	// Helper to turn a ttmath number (integer or float) into an FString
+	template<typename T>
+	FString ttbigToString(T x)
+	{
+		return FString(x.ToString().c_str());
+	}
 
 	// Builds a fixed-size value using a given mantissa.
 	// Note the difference between the mantissa and the value: this does not build a number that value is x, but that values is x*2^-Exponent
@@ -187,13 +194,6 @@ public:
 		return real_fixed<MantissaSize, Exponent>::FromMantissa(real_fixed<MantissaSize, Exponent>::ttIntMantissaType(1));
 	}
 };
-
-// Helper to turn a ttmath number (integer or float) into an FString
-template<typename T>
-FString ttbigToString(T x)
-{
-	return FString(x.ToString().c_str());
-}
 
 // Definitions exponentiatedTtInt, exponentiatedTtBig and exponentiatedDouble (Cached value of the exponent). See the declarations for more info
 template<int MantissaSize, int Exponent>
