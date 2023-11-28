@@ -4,8 +4,8 @@
 
 #include "SpaceKitPrecisionEditor/Public/RealGenericEditor.h"
 
-#include "SlateCore/Public/Widgets/DeclarativeSyntaxSupport.h"
-#include "SlateCore/Public/Widgets/SCompoundWidget.h"
+#include "Widgets/DeclarativeSyntaxSupport.h"
+#include "Widgets/SCompoundWidget.h"
 #include "Widgets/Layout/SWidgetSwitcher.h"
 
 class FArguments;
