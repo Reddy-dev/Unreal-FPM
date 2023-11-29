@@ -157,7 +157,7 @@ public:
 	// For a given x, then |x - real_fixed(x.ToString())| <= 10^(-floor(Exponent*ln(2)/ln(10)))
 	// However, if x is itself imported from an exported string, there will be no precision loss:
 	// For a given y, so that x=real_fixed(y.ToString()), then x = real_fixed(x.ToString())
-	FString ToString() const
+	FString ToString()
 	{
 		// There is no built-in way to convert fixed point numbers to string, and it's too hard and error prone to code it manually,
 		// so we'll use some of the features ttmath has to offer, but with some modifications
@@ -175,7 +175,7 @@ public:
 		RightPartString.RemoveFromStart("0.");
 
 		// Convert the left side to string, using ttmath.
-		const FString LeftPartString = ttbigToString(LeftPart);
+		auto LeftPartString = ttbigToString<ttIntMantissaType>(LeftPart);
 
 		// Compute the result, and return
 		const FString Result = LeftPartString + "." + RightPartString;
